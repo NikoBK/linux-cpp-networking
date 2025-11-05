@@ -1,5 +1,5 @@
 # Ignore all build artifacts
-/build/
+/server/build/
 CMakeCache.txt
 CMakeFiles/
 Makefile
