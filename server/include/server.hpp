@@ -28,7 +28,7 @@ public:
     bool connected() const { return _connected; }
 
     void AcceptConnection();
-    void HandleConnection(int *state);
+    void HandleConnection();
     void Send(Message& message);
     void Disconnect(const std::string& reason);
     void SendError(std::string text);

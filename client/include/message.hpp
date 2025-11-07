@@ -3,8 +3,11 @@
 
 #include <vector>
 #include <string.h>
+#include <arpa/inet.h>
 #include <iterator>
 #include <stdexcept>
+
+#include <constants.hpp>
 
 class Encoder {
 public:
