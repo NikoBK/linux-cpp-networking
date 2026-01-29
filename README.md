@@ -1,5 +1,6 @@
 # Linux based server/client custom TCP protocol networking solution
-This repository is a resource for a blog post I am working on that breaks down how to do some basic networking with byte streams and decoding/encoding with network to host order and the other way around.
-The scope of this project is limited to focus on how to connect two sockets, both running on Linux (I am using arch for setting this up, but the distro is irelevant here), that can both encode, send and decode data types such as string, int, float, boolean and bytes.
+This repository is a resource for [this blog post](https://nikolajbjoernager.dk/linux-cpp-networking/) I wrote. It breaks down how to do basic TCP-based networking with byte streams using network to host order and the other way around.\
+The scope of this project is limited to focus on how to connect two sockets, both running on Linux (should work on most distros), that can send, encode, receive and decode data types such as string, int, float, boolean and bytes, with some extra info on how floating point values can be encoded and decoded.
 
-If you see no link to the blog post as of reading this, that means the blog post is still work in progress and not yet published.
+The link to the blog post is also linked on this repository's 'about' panel on github too.\
+Thank you for checking by!
